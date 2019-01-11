@@ -1,0 +1,7 @@
+base\BrowserDriver.class
+reporting\ExtentManager.class
+reporting\ExtentTestManager.class
+reporting\ApplicationLog.class
+reporting\TestLogger.class
+xlx\api\MyDataReader.class
+util\xls\reader\test\MyDataReader.class
