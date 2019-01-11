@@ -8,7 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="FaceBook" />
         <module name="Generic" />
+        <module name="WellsFargo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FaceBook" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="WebAutoJan2018" target="1.8" />
+      <module name="WellsFargo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

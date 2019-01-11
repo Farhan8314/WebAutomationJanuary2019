@@ -12,6 +12,7 @@
     <modules>
         <module>FaceBook</module>
         <module>Generic</module>
+        <module>WellsFargo</module>
     </modules>
 
 
