@@ -5,8 +5,9 @@ import base.BrowserDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import pagebase.ApplicationPageBase;
 
-public class SignInPage extends BrowserDriver {
+public class SignInPage extends ApplicationPageBase {
     @FindBy
             (how = How.XPATH, xpath = "//*[@id=\"email\"]")
     WebElement enterUN;
@@ -16,10 +17,10 @@ public class SignInPage extends BrowserDriver {
     WebElement hitLogin;
 
 
-    public void SignOn() {
+    public void SignOn(String un, String pw) {
         enterUN.click();
-        enterUN.sendKeys("samadam606@yahoo.oom");
-        enterPW.sendKeys("bu8314");
+        sendKeys(enterUN, "username",un);
+        sendKeys(enterPW, "passward", pw);
         hitLogin.click();
 
 

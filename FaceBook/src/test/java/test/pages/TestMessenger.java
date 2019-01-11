@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.Messenger;
 
-public class TestMessenger extends BrowserDriver {
+public class TestMessenger extends Messenger {
     Messenger messenger = null;
 
     @BeforeMethod
