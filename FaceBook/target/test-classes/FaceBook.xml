@@ -14,7 +14,7 @@
     <test name = " Tests">
 
         <classes>
-            <class name="test.pages.TestSignInPage"/>
+            <class name="test.pages.TestSearMysql"/>
 
         </classes>
 
